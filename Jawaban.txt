@@ -1,0 +1,55 @@
+==================
+Soal Ujian Akhir Semester
+Nama : Sinta Mulyani
+NIM : 311710287
+Matkul : Arsitektu dan organisasi Komputer
+Kelas : TI.17.D3 
+Universitas Pelita Bangsa
+2020
+================
+
+
+1. Dalam arsitektur komputer ada 4 komponen Utama CPU, Sebutkan dan jelaskan kegunanaanya?
+2. Control Unit adalah bagian dari komputer yang menggenerasi signal yang mengontrol operasi
+komputer, sebutkan jenis apa saja yang termasuk Control Unit?
+3. Set instruksi (instruction set) adalah sekumpulan lengkap instruksi yang dapat di mengerti oleh sebuah
+CPU. Set instruksi sering juga disebut sebagai bahasa mesin . sebutkan macam-macam format
+Instruksi?
+4. Direct Memory Access (DMA) adalah suatu metode transfer data dari memori komputer atau RAM ke
+suatu bagian dari komputer tanpa memprosesnya menggunakan CPU. Sebutkan kelebihan
+menggunakan DMA ?
+5. Pipeline adalah mesin yang melaksanakan beberapa komputasi yang berbeda secara bersama-sama
+,namun pada saat itu setiap komputasi akan berada dalam tahapan eksekusi yang berbeda. Sebutkan
+dua kategori Pipeline ?
+
+Jawab:
+1. - Unit Kontrol 
+    Mengatur dan mengontrol alat input (masukan) dan output (keluaran).
+    Mengambil instruksi dari memori utama.
+    Mengambil data dari memori utama (jika diperlukan) untuk diproses.
+    Mengirim instruksi ke ALU bila ada perhitungan aritmatika dan perbandingan logika, lalau mengawasi kerja dari ALU.
+    Menyimpan hasil proses ke memori utama.
+   - Register
+    sebagai memori dalam otak ketika kita melakukan pengolahan manual, sehingga otak dapat diibaratkan sebagai CPU, 
+    yang berisi kenangan, unit kontrol yang mengatur semua aktivitas tubuh dan memiliki tempat untuk melakukan perhitungan dan perbandingan logika.
+   - Unit ALU
+    Tugas utama dari ALU adalah melakukan semua perhitungan aritmatika yang terjadi sesuai dengan perintah program. 
+   - CPU Interconnections
+    sistem koneksi dan bus yang menghubungkan komponen internal CPU, yaitu ALU, unit kontrol dan register-register dan 
+    juga dengan bus-bus eksternal CPU yang menghubungkan dengan system lainnya
+2. - Single-Cycle CU
+   - Multi-Cycle CU
+3. Data procecessing: Arithmetic dan Logic Instructions
+   Data storage: Memory instructions
+   Data Movement: I/O instructions
+   Control: Test and branch instructions
+4. 1. Dapat menirukan sebagian fungsi processor.
+
+   2. Dapat mengambil alih fungsi processor yang berhubungan dengan transfer data.
+
+   3. CPU dapat melakukan menejemen operasi baca tulis (transfer data) dengan baik dan juga dapat menyelesaikan instruksi yang lain.
+
+   4. Mendapat informasi tentang jumlah data bit yang ditransfer, alamat dari device dan memory yang diperlukan dan arah dari aliran data.
+5. 1.Pipeline Unit Arithmetic : berguna untuk operasi vector
+
+   2.Pipeline Unit Instruction : berguna untuk komputer yang mempunyai set instruksi yang sederhana
